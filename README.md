@@ -84,7 +84,7 @@ Developed to bring the power of the V10 UI to headless servers!
 Run the following command in your terminal as `root`. It will automatically install all dependencies (`sshpass`, `jq`, `curl`, `netcat`), setup the systemd service, and launch the CLI menu:
 
 ```bash
-bash <(curl -sL [https://raw.githubusercontent.com/saeederamy/black-ssh/main/install.sh](https://raw.githubusercontent.com/saeederamy/black-ssh/main/install.sh))
+bash <(curl -sL https://raw.githubusercontent.com/saeederamy/black-ssh/main/install.sh))
 ```
 
 > **Note:** If you already have it installed, running this command again will safely update the core files without deleting your saved servers.
